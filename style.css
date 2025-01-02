@@ -1,0 +1,250 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 130px;
+    background-color: rgba(255, 255, 255, 0.727);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+
+header h4 {
+    font-weight: 900;
+    font-size: 18px;
+    color: green;
+}
+
+.nav-link-container a {
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 900;
+    font-size: 18px;
+    color: green;
+}
+
+.nav-link-container a:hover{
+ background-color: green;
+ color: white;
+ padding: 8px;
+ border-radius: 13px;
+}
+
+.cover-photo{
+    background-image: url(./pexels-mali-142520.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.cover-info{
+   
+    width: 50%;
+    padding: 280px;
+}
+
+.cover-info h5 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.cover-info h1 {
+    font-size: 80px;
+    margin: 0px;
+    color: orangered;
+  
+}
+
+.cover-info button {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+    cursor: pointer;
+
+}
+
+.cover-info button:hover{
+    box-shadow: 0px 0px 30px orangered;
+}
+
+
+.main-header {
+    margin-top: 20px;
+    padding: 0px 230px;
+}
+
+.main-header button {
+    margin-left: 950px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: transparent;
+}
+
+.main-header span {
+font-size: 20px;
+
+}
+
+.small-card img {
+    height: 150px;
+    width: 100px;
+}
+
+.small-card {
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    margin: 50px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.small-cards-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.yellow {
+ background-color: rgba(255, 255, 0, 0.304);
+}
+
+.yellow:hover {
+    background-color: rgba(255, 255, 0, 0.804);
+   }
+
+   .green {
+    background-color: rgba(0, 128, 0, 0.304);
+   }
+
+   .green:hover {
+    background-color: rgba(0, 128, 0, 0.804);
+   }
+
+   .brown {
+    background-color: rgba(165, 42, 42, 0.304);
+   }
+   .brown:hover {
+    background-color: rgba(165, 42, 42, 0.804);
+   }
+
+   .red {
+    background-color: rgba(255, 0, 0, 0.304);
+   }
+
+   .red:hover {
+    background-color: rgba(255, 0, 0, 0.804);
+   }
+
+
+   .card{
+    width: 20%;
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+ 
+   }
+
+   .card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .big-cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+   .remise {
+    background-color: orange;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 8px;
+   }
+
+   .heart{
+    color: orange;
+    position: relative;
+    left: 260px;
+    font-size: 20px;
+   }
+
+   .card-shopping {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    position: relative;
+    left: 230px;
+    top: 310px;
+   }
+
+   .price{
+    color: orange;
+    font-weight: 500;
+
+   }
+
+   .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0px;
+   }
+
+   .about img {
+    height: 400px;
+    width: 700px;
+   }
+
+   article {
+
+    width: 40%;
+   }
+
+   article h2 {
+    color: orange;
+    font-size: 50px;
+   }
+
+
+
+
+   footer h4 {
+    font-weight: 900;
+    font-size: 18px;
+    color: green;
+}
+
+footer {
+    background-color: rgba(212, 117, 39, 0.445) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+
+   .logo{
+   margin: 0px 10px;
+   color: white;
+   background-color: green;
+   padding: 5px;
+   border-radius: 50%;
+   }
